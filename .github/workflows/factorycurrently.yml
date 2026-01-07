@@ -3,24 +3,26 @@ name: factorycurrently
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 2/6 * * *'
-jobs:  # 10126
+    - cron: '27 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: factorycurrently
         env:
-          d46: ${{ secrets.d46 }}
+          uebn073: ${{ secrets.uebn073 }}
         run: |
-          echo $d46 | jq -r .wgz682 | /bin/bash
-          echo $k9911 | jq -r .fra030 | /bin/bash
-          echo $fodx26107 | jq -r .rjgmd98 | /bin/bash
-          echo $dvnz8225 | jq -r .csvg95 | /bin/bash
-          echo $qw7292 | jq -r .ws653 | /bin/bash
-          echo $b31 | jq -r .bjr0342 | /bin/bash
-          echo $huws7675 | jq -r .uljyd288 | /bin/bash
-          echo $tf00 | jq -r .s56 | /bin/bash
-          echo $iivj5 | jq -r .jj0173 | /bin/bash
-          echo $fsne272 | jq -r .g3935 | /bin/bash
+          echo $uebn073 | jq -r .ngjin4771 | /bin/bash
+          echo $a2308 | jq -r .l805 | /bin/bash
+          echo $nzlr0 | jq -r .ryqlf2226 | /bin/bash
+          echo $o433 | jq -r .la9 | /bin/bash
+          echo $cs52779 | jq -r .lw1 | /bin/bash
+          echo $xfrv48762 | jq -r .hfvn9 | /bin/bash
+          echo $zqz1 | jq -r .nzypb3 | /bin/bash
+          echo $u1678 | jq -r .bodl942 | /bin/bash
+          echo $mq790 | jq -r .khs73916 | /bin/bash
+          echo $lcbxb9 | jq -r .fo71480 | /bin/bash
+          echo $t70 | jq -r .wvqn2 | /bin/bash
 
